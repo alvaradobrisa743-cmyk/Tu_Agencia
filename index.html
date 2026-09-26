@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== TÍTULO DE LA PESTAÑA ===== -->
+    <title>Inicio | Diseño y Desarrollo Web Profesional</title>
+    <meta name="description" content="Creamos landing pages, sitios corporativos y tiendas online que convierten visitantes en clientes.">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ============================================================ -->
+    <!-- NAVEGACIÓN PRINCIPAL (SE REPITE EN TODAS LAS PÁGINAS)        -->
+    <!-- ============================================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Cambiar nombre de la marca aquí -->
+            <a href="index.html" class="nav-logo">Tu<span>Agencia</span></a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                <li><a href="portafolio.html" class="nav-link">Portafolio</a></li>
+                <li><a href="precios.html" class="nav-link">Precios</a></li>
+                <li><a href="proceso.html" class="nav-link">Proceso</a></li>
+                <li><a href="contacto.html" class="nav-link btn-nav-cta">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================================ -->
+    <!-- HEADER CON CARRUSEL (SLIDER)                                  -->
+    <!-- ============================================================ -->
+    <header class="header-slider">
+        <div class="slider-container">
+
+            <!-- ===== SLIDE 1 (EDITAR IMAGEN Y TEXTO AQUÍ) ===== -->
+            <div class="slide active" style="background-image: url('https://picsum.photos/id/180/1920/1080');">
+                <div class="slide-content">
+                    <h1>Diseño Web que Convierte</h1>
+                    <p>Creamos páginas rápidas, modernas y optimizadas para vender.</p>
+                    <a href="contacto.html" class="btn-cta">Solicita tu cotización</a>
+                </div>
+            </div>
+
+            <!-- ===== SLIDE 2 ===== -->
+            <div class="slide" style="background-image: url('https://picsum.photos/id/2/1920/1080');">
+                <div class="slide-content">
+                    <h1>Desarrollo a la Medida</h1>
+                    <p>Tiendas online, sitios corporativos y aplicaciones web.</p>
+                    <a href="contacto.html" class="btn-cta">Solicita tu cotización</a>
+                </div>
+            </div>
+
+            <!-- ===== SLIDE 3 ===== -->
+            <div class="slide" style="background-image: url('https://picsum.photos/id/1/1920/1080');">
+                <div class="slide-content">
+                    <h1>Resultados Reales</h1>
+                    <p>Más de 150 proyectos entregados a clientes satisfechos.</p>
+                    <a href="contacto.html" class="btn-cta">Solicita tu cotización</a>
+                </div>
+            </div>
+
+            <!-- Flechas -->
+            <button class="slider-arrow prev" aria-label="Anterior">&#10094;</button>
+            <button class="slider-arrow next" aria-label="Siguiente">&#10095;</button>
+
+            <!-- Puntos indicadores -->
+            <div class="slider-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================================ -->
+    <!-- SECCIÓN DE BENEFICIOS / SERVICIOS DESTACADOS                 -->
+    <!-- ============================================================ -->
+    <section class="section beneficios">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+            <p class="section-subtitle">Soluciones digitales pensadas para hacer crecer tu negocio</p>
+
+            <div class="beneficios-grid">
+                <!-- Beneficio 1 -->
+                <div class="beneficio-card">
+                    <div class="beneficio-icono">⚡</div>
+                    <h3>Rendimiento Óptimo</h3>
+                    <p>Sitios veloces con puntuación alta en Google PageSpeed.</p>
+                </div>
+                <!-- Beneficio 2 -->
+                <div class="beneficio-card">
+                    <div class="beneficio-icono">📱</div>
+                    <h3>100% Responsivo</h3>
+                    <p>Tu sitio se ve perfecto en móvil, tablet y escritorio.</p>
+                </div>
+                <!-- Beneficio 3 -->
+                <div class="beneficio-card">
+                    <div class="beneficio-icono">🔍</div>
+                    <h3>SEO Integrado</h3>
+                    <p>Optimización desde la base para que te encuentren en Google.</p>
+                </div>
+                <!-- Beneficio 4 -->
+                <div class="beneficio-card">
+                    <div class="beneficio-icono">🛠️</div>
+                    <h3>Soporte Continuo</h3>
+                    <p>Acompañamiento técnico después del lanzamiento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- VISTA PREVIA DEL PORTAFOLIO                                  -->
+    <!-- ============================================================ -->
+    <section class="section portafolio-preview">
+        <div class="container">
+            <h2 class="section-title">Proyectos Recientes</h2>
+            <p class="section-subtitle">Un vistazo a lo que podemos lograr juntos</p>
+
+            <div class="portafolio-grid">
+                <div class="portafolio-item">
+                    <img src="https://picsum.photos/id/20/600/400" alt="Proyecto 1">
+                    <div class="portafolio-overlay">
+                        <h3>Landing Fitness</h3>
+                        <span>Landing Page</span>
+                    </div>
+                </div>
+                <div class="portafolio-item">
+                    <img src="https://picsum.photos/id/26/600/400" alt="Proyecto 2">
+                    <div class="portafolio-overlay">
+                        <h3>Boutique Online</h3>
+                        <span>E-commerce</span>
+                    </div>
+                </div>
+                <div class="portafolio-item">
+                    <img src="https://picsum.photos/id/48/600/400" alt="Proyecto 3">
+                    <div class="portafolio-overlay">
+                        <h3>Consultora Legal</h3>
+                        <span>Corporativo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="centrar-boton">
+                <a href="portafolio.html" class="btn-secundario">Ver portafolio completo →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- CTA FINAL                                                    -->
+    <!-- ============================================================ -->
+    <section class="section cta-final">
+        <div class="container">
+            <h2>¿Listo para llevar tu negocio al siguiente nivel?</h2>
+            <p>Cotiza tu proyecto sin compromiso y recibe una propuesta en menos de 24h.</p>
+            <a href="contacto.html" class="btn-cta">Solicitar cotización</a>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- PIE DE PÁGINA (SE REPITE EN TODAS LAS PÁGINAS)               -->
+    <!-- ============================================================ -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h4>Tu<span>Agencia</span></h4>
+                <p>Diseño y desarrollo web profesional para negocios que quieren crecer.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="precios.html">Precios</a></li>
+                    <li><a href="proceso.html">Proceso</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>📧 hola@tuagencia.com</p>
+                <p>📞 +52 123 456 7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tu Agencia Web. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

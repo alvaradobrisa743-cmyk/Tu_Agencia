@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Tu Agencia Web</title>
+    <meta name="description" content="Explora nuestros proyectos de landing pages, e-commerce y sitios corporativos.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== NAVEGACIÓN ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Tu<span>Agencia</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="portafolio.html" class="nav-link active">Portafolio</a></li>
+                <li><a href="precios.html" class="nav-link">Precios</a></li>
+                <li><a href="proceso.html" class="nav-link">Proceso</a></li>
+                <li><a href="contacto.html" class="nav-link btn-nav-cta">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== ENCABEZADO DE PÁGINA ===== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Portafolio de Proyectos</h1>
+            <p>Casos de éxito que transformaron negocios reales</p>
+        </div>
+    </section>
+
+    <!-- ===== PORTAFOLIO COMPLETO CON FILTROS ===== -->
+    <section class="section portafolio">
+        <div class="container">
+            <div class="portafolio-filtros">
+                <button class="filtro-btn active" data-filtro="todos">Todos</button>
+                <button class="filtro-btn" data-filtro="landing">Landing Pages</button>
+                <button class="filtro-btn" data-filtro="ecommerce">E-commerce</button>
+                <button class="filtro-btn" data-filtro="corporativo">Corporativos</button>
+            </div>
+
+            <div class="portafolio-grid">
+                <div class="portafolio-item" data-categoria="landing">
+                    <img src="https://picsum.photos/id/20/600/400" alt="Landing Fitness">
+                    <div class="portafolio-overlay">
+                        <h3>Landing Fitness</h3>
+                        <span>Landing Page</span>
+                    </div>
+                </div>
+                <div class="portafolio-item" data-categoria="ecommerce">
+                    <img src="https://picsum.photos/id/26/600/400" alt="Boutique Online">
+                    <div class="portafolio-overlay">
+                        <h3>Boutique Online</h3>
+                        <span>E-commerce</span>
+                    </div>
+                </div>
+                <div class="portafolio-item" data-categoria="corporativo">
+                    <img src="https://picsum.photos/id/48/600/400" alt="Consultora Legal">
+                    <div class="portafolio-overlay">
+                        <h3>Consultora Legal</h3>
+                        <span>Corporativo</span>
+                    </div>
+                </div>
+                <div class="portafolio-item" data-categoria="landing">
+                    <img src="https://picsum.photos/id/60/600/400" alt="App de Finanzas">
+                    <div class="portafolio-overlay">
+                        <h3>App de Finanzas</h3>
+                        <span>Landing Page</span>
+                    </div>
+                </div>
+                <div class="portafolio-item" data-categoria="ecommerce">
+                    <img src="https://picsum.photos/id/96/600/400" alt="TechStore">
+                    <div class="portafolio-overlay">
+                        <h3>TechStore</h3>
+                        <span>E-commerce</span>
+                    </div>
+                </div>
+                <div class="portafolio-item" data-categoria="corporativo">
+                    <img src="https://picsum.photos/id/119/600/400" alt="Clínica Dental">
+                    <div class="portafolio-overlay">
+                        <h3>Clínica Dental</h3>
+                        <span>Corporativo</span>
+                    </div>
+                </div>
+                <div class="portafolio-item" data-categoria="landing">
+                    <img src="https://picsum.photos/id/180/600/400" alt="Curso Online">
+                    <div class="portafolio-overlay">
+                        <h3>Curso Online</h3>
+                        <span>Landing Page</span>
+                    </div>
+                </div>
+                <div class="portafolio-item" data-categoria="ecommerce">
+                    <img src="https://picsum.photos/id/250/600/400" alt="Joyería Premium">
+                    <div class="portafolio-overlay">
+                        <h3>Joyería Premium</h3>
+                        <span>E-commerce</span>
+                    </div>
+                </div>
+                <div class="portafolio-item" data-categoria="corporativo">
+                    <img src="https://picsum.photos/id/342/600/400" alt="Constructora">
+                    <div class="portafolio-overlay">
+                        <h3>Constructora MX</h3>
+                        <span>Corporativo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="section cta-final">
+        <div class="container">
+            <h2>¿Quieres ver tu proyecto aquí?</h2>
+            <p>Cuéntanos tu idea y la hacemos realidad.</p>
+            <a href="contacto.html" class="btn-cta">Solicitar cotización</a>
+        </div>
+    </section>
+
+    <!-- ===== PIE DE PÁGINA ===== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h4>Tu<span>Agencia</span></h4>
+                <p>Diseño y desarrollo web profesional para negocios que quieren crecer.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="precios.html">Precios</a></li>
+                    <li><a href="proceso.html">Proceso</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>📧 hola@tuagencia.com</p>
+                <p>📞 +52 123 456 7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tu Agencia Web. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
